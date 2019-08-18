@@ -136,7 +136,6 @@
 .input-group-lg > .input-group-append > .btn {
   padding: $input-padding-y-lg $input-padding-x-lg;
   @include font-size($input-font-size-lg);
-  line-height: $input-line-height-lg;
   @include border-radius($input-border-radius-lg);
 }
 
@@ -153,7 +152,6 @@
 .input-group-sm > .input-group-append > .btn {
   padding: $input-padding-y-sm $input-padding-x-sm;
   @include font-size($input-font-size-sm);
-  line-height: $input-line-height-sm;
   @include border-radius($input-border-radius-sm);
 }
 
