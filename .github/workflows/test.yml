@@ -24,9 +24,12 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         version: 2.4.x
-        
+
     - name: Set up Bundler
       run: gem install bundler
+
+    - name: Update rubygems
+      run: gem update --system
 
     - run: ruby --version
     - run: gem --version
